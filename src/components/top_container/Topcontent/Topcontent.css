@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Fresca&family=Klee+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.topcontent{
+    color: white;
+    position:relative;
+    font-family: Montserrat,sans-serif;
+}
+.topcontent{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+.topcontent_container > p{
+    letter-spacing: 1px;
+    padding-left: 3px;
+    padding-top: 15px;
+}
+.topcontent_container > a>button{
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border:none;
+    border-radius: 2px;
+    outline: none;
+}
+.topcontent_container>h1{
+    font-size: 30px;
+}
+.b1,.b2{
+    color:white;
+    background-color: #f64c08;
+    font-size: 14px;
+    padding:10px 20px;
+    cursor:pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+.b2:hover{
+    color: #f64c08;
+    background-color:white;
+    font-weight: 600;
+}
+.b1:hover{
+    color: #f64c08;
+    background-color:white;
+    font-weight: 600;
+}
+.main>.about{
+    font-family: Klee One,sans-serif;
+    color: white;
+    position:relative;
+    top: 80px;
+    left:20px;
+    display:inline;
+}
